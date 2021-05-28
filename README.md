@@ -51,6 +51,7 @@ There we go, now, we just have determine what is the repeated words.
 As we can see in the code, it will replace certain phrase/word with other  phrase/or word.
 
 ![](/res/Capture9.PNG)
+
 The way i determine what word it will replace is by echo manually in poweshell (Damn, i hate this.But it is better than manually determine the character one by one)
 
 ![](/res/Capture10.PNG)
