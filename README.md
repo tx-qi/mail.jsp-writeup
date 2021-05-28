@@ -35,27 +35,27 @@ As you can see, after the run the, we can see the code of the sample. However, i
 We can see that the character is reversed. 'ecalper' is 'replace' and 'rahc' is 'char'. Do you smell something? It mean that we must fired up the kitchen!
 
 ## 3)Cooking with CyberChef
-Here is most of the deobfuscation occured
+Here is continuation of the deobfuscation.
 ![](/res/Capture7.PNG)
 Now, the code became little bit clearer. It is readable. However there are some obfuscation by using:
 
- - repeated pattern
+ - repeated pattern of words
  -  "+" sign
 
 "+" sign is not a major problem as we can read easily, however repeated pattern make the code harder to understand. It hard to determine whether is it real phrase of argument/variable or it is mixed with some bs words.
 
-Luckily, the sample itself must remove the obfuscated word in order to run properly. So we just have to find the function/command that removed repeated pattern. You can manually read and remove repeated pattern,but it is truly inefficient.
+Luckily, the sample itself must remove the obfuscated word in order to run properly. So we just have to *find* the function/command that removed repeated pattern. You can manually read and remove repeated pattern,but it is truly inefficient.
 
 ![](/res/Capture8.PNG)
 There we go, now, we just have determine what is the repeated words.
-As we can see in the code, it will replace certain phrase/word with other  phrase/or word.
+As we can see in the code, it will replace certain word with other  word.
 
 ![](/res/Capture9.PNG)
 
 The way i determine what word it will replace is by echo manually in poweshell (Damn, i hate this.But it is better than manually determine the character one by one)
 
 ![](/res/Capture10.PNG)
-here, we can see, the first is words contain in the code it will be and the second one is what it'll be subtitute. 
+here, we can see, the first is words contain in the code it will be and the second one is what it'll be subtitute.
 
 ## Final
 ![](/res/Capture11.PNG)
