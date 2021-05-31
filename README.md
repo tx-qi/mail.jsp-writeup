@@ -7,11 +7,6 @@ Tools used:
  - Cyberchef
  - related online tools 
 
-## Kudos
-
- - Allah
- - Fareed (Question Maker, Helper)
- - Afif (Helper)
 
 ## Starting
 ![](/res/Capture.PNG)
@@ -60,3 +55,9 @@ here, we can see, the first is words contain in the code it will be and the seco
 ## Final
 ![](/res/Capture11.PNG)
 Now, the sample code can be read a little bit easily However there are some part that is a little bit hard to understand,I'll leave it up to you to solve it yourself lol.Happy answering 
+
+## Kudos
+
+ - Allah
+ - Fareed (Question Maker, Helper)
+ - Afif (Helper)
